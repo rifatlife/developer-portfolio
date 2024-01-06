@@ -11,6 +11,14 @@ body {
     font-size: 20px;
     font-weight: 700;
     padding: 15px 35px;
+
+}
+
+#contect-color {
+    background: #FFF8F3;
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+    color: #FD6E0A;
 }
 
 .section-title {
@@ -196,11 +204,13 @@ footer {
 .footer-column {
     width: 50%;
 }
-.social-link a{
+
+.social-link a {
     margin-right: 25px;
 }
 
-.contact input[type="text"], .contact input[type="email"], 
+.contact input[type="text"],
+.contact input[type="email"],
 textarea {
     display: block;
     margin-bottom: 24px;
